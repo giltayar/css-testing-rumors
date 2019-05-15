@@ -3,7 +3,7 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Automation Bookstore Demo</title>
+	<title>Testing Bookstore Demo</title>
 	<link rel="stylesheet" href="css/jquery.css">
 	<link rel="stylesheet" href="css/listview-grid.css">
 	<script src="js/jquery.js"></script>
@@ -14,7 +14,7 @@
 	<div data-role="page" data-theme="b" id="demo-page" class="my-page ui-page ui-page-theme-b ui-page-active" data-url="demo-page" tabindex="0" style="min-height: 930px;">
 
 		<div data-role="header" role="banner" class="ui-header ui-bar-inherit">
-			<h1 id="page-title" class="ui-title" role="heading" aria-level="1">Automation Bookstore</h1>
+			<h1 id="page-title" class="ui-title" role="heading" aria-level="1">Testing Bookstore</h1>
 		</div><!-- /header -->
 
 		<div role="main" class="ui-content">
@@ -31,7 +31,7 @@
 							var listItem = document.createElement('li');
 							listItem.setAttribute('id', "pid" + product.id);
 							listItem.innerHTML = "<a href='#'><img id='pid" + product.id + "_thumb' src='" + product.thumb + "' class='ui-li-thumb'><h2 id='pid" + product.id + "_title'>" + product.name + "</h2><p id='pid" + product.id + "_author'>" + product.author + "</p><p class='ui-li-aside' id='pid" + product.id + "_price'>$" + product.price +"</p></a>";
-							list.appendChild(listItem); 
+							list.appendChild(listItem);
 						 });
 					});
 				</script>
