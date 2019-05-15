@@ -1,0 +1,47 @@
+{
+  "name": "css-testing-rumors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/templatetemplate.js",
+  "engines": {
+    "node": ">=10.3.0"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "scripts": {
+    "start": "serve --single --listen 3000 public",
+    "test": "npm run eslint",
+    "eslint": "eslint '**/*.js'"
+  },
+  "keywords": [
+    "applitools",
+    "testing",
+    "browser",
+    "grid",
+    "visual-testing",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Gil Tayar <gil.tayar@applitools.com>",
+  "license": "UNLICENSED",
+  "repository": {
+    "url": "https://github.com/giltayar/css-testing-rumors",
+    "type": "git"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-mocha-no-only": "^1.0.0",
+    "eslint-plugin-node": "^9.0.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "mocha": "^6.1.4",
+    "prettier": "^1.17.0"
+  },
+  "dependencies": {
+    "serve": "^11.0.0"
+  }
+}
