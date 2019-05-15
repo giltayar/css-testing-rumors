@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-env browser */
 var productData = {
   products: [
     {
