@@ -7,5 +7,7 @@ it('should test with image-snapshot-simple-test', () => {
 
   cy.visit('http://localhost:3000')
 
+  cy.get('#searchBar').type('test')
+
   cy.matchImageSnapshot('home-page')
 })
