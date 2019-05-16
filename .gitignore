@@ -60,7 +60,7 @@ typings/
 # next.js build output
 .next
 
-cypress/snapshots
+cypress/screenshots
 cypress/videos
-
+__diff_output__
 .DS_Store
