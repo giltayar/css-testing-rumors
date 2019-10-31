@@ -7,15 +7,15 @@ it('should test with eyes', () => {
   cy.visit('http://localhost:3000')
 
   cy.eyesOpen({
-    appName: 'Testing at CSSConf',
-    batchName: 'Testing at CSSConf',
+    appName: 'Testing at ReactiveConf',
+    batchName: 'Testing at ReactiveConf',
     testName: 'Home Page',
     browser: [
       {name: 'chrome', width: 1024, height: 768},
       {name: 'chrome', width: 800, height: 600},
-      {name: 'chrome', width: 700, height: 600},
+      {name: 'firefox', width: 1920, height: 1080},
       {deviceName: 'iPhone X'},
-      {name: 'ie', width: 800, height: 600},
+      {deviceName: 'iPhone XS'},
     ],
   })
 
