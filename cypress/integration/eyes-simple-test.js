@@ -14,7 +14,6 @@ it('should test with eyes', () => {
       {name: 'chrome', width: 1024, height: 768},
       {name: 'chrome', width: 800, height: 600},
       {name: 'firefox', width: 1920, height: 1080},
-      {deviceName: 'iPhone X'},
       {deviceName: 'iPhone XS'},
     ],
   })
